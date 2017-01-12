@@ -37,7 +37,7 @@
       "Type" : "AWS::Serverless::Function",
       "Properties": {
 	    "Description" : "Built by Serverless CloudFormation [Michael]",
-        "Handler": "SignalDetectionServices::SignalDetectionServices.Functions::OnNewDBRecordLambda",
+        "Handler": "SignalDetectionServices::SignalDetectionServices.MyAlgorithm::OnNewDBRecordLambda",
         "Runtime": "dotnetcore1.0",
         "CodeUri": "",
         "MemorySize": 256,
@@ -71,7 +71,7 @@
       "Type" : "AWS::Serverless::Function",
       "Properties": {
 	  	"Description" : "Built by Serverless CloudFormation [Michael]",
-        "Handler": "SignalDetectionServices::SignalDetectionServices.Functions::ProcessSpectrumContollerLambda",
+        "Handler": "SignalDetectionServices::SignalDetectionServices.MyAlgorithm::ProcessSpectrumContollerLambda",
         "Runtime": "dotnetcore1.0",
         "CodeUri": "",
         "MemorySize": 1024,
@@ -90,7 +90,7 @@
       "Type" : "AWS::Serverless::Function",
       "Properties": {
 	  	"Description" : "Built by Serverless CloudFormation [Michael]",
-        "Handler": "SignalDetectionServices::SignalDetectionServices.Functions::ProcessSpectraAsyncLambda",
+        "Handler": "SignalDetectionServices::SignalDetectionServices.MyAlgorithm::ProcessSpectraAsyncLambda",
         "Runtime": "dotnetcore1.0",
         "CodeUri": "",
         "MemorySize": 1024,
