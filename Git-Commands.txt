@@ -1,0 +1,6 @@
+git init
+git remote add origin https://RemoteName/Proj.git
+git pull origin master
+git add .
+git commit -m 'added files'
+git push -u origin master
